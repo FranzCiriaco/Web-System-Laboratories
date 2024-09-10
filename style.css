@@ -1,0 +1,13 @@
+.btn{
+    text-decoration: none;
+    border: 3px solid pink;
+    padding: 5px;
+    border-radius: 8px;
+    color: black
+}
+
+.btn:hover{
+    background-color: pink;
+    color: black;
+    padding: 7px;
+}
