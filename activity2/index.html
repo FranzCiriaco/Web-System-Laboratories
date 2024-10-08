@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My List App</title>
+    
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <div class="container list fw-bold">
+            <h1>My Favorite Basketball List</h1>
+            <input type="text" placeholder="Search here...">
+            
+            <ul>
+                <li>
+                    <div class="Baller-info">
+                        <span>Lebron James</span>
+                        <small>Let's Go!</small>
+                    </div>
+                    <button class="delete">Delete</button>
+                </li>
+
+                <li>
+                    <div class="Baller-info">
+                        <span>Kyrie Irving</span>
+                        <small>Kyriediculous</small>
+                    </div>
+                    <button class="delete">Delete</button>
+                </li>
+
+                <li>
+                    <div class="Baller-info">
+                        <span>Luka Doncic</span>
+                        <small>Luka Magic</small>
+                    </div>
+                    <button class="delete">Delete</button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container add-wrestler">
+            <h1>Add Baller</h1>
+            <input type="text" placeholder="Player:" id="Player">
+            <input type="text" placeholder="Teams:" id="Teams">
+            <button id="addBtn">Add</button>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
